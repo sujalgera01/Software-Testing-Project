@@ -127,7 +127,7 @@ if(isset($_POST['docsub1']))
   </style>
   <body style="padding-top:50px;">
    <div class="container-fluid" style="margin-top:50px;">
-    <h3 style = "margin-left: 40%; padding-bottom: 20px;font-family: 'IBM Plex Sans', sans-serif;"> WELCOME to the Portal : RECEPTIONIST </h3>
+    <h3 style = "margin-left: 40%; padding-bottom: 20px;font-family: 'IBM Plex Sans', sans-serif;"> WELCOME RECEPTIONIST </h3>
     <div class="row">
   <div class="col-md-4" style="max-width:25%;margin-top: 3%;">
     <div class="list-group" id="list-tab" role="tablist">
@@ -154,7 +154,7 @@ if(isset($_POST['docsub1']))
                   <div class="panel panel-white no-radius text-center">
                     <div class="panel-body">
                       <span class="fa-stack fa-2x"> <i class="fa fa-square fa-stack-2x text-primary"></i> <i class="fa fa-users fa-stack-1x fa-inverse"></i> </span>
-                      <h4 class="StepTitle" style="margin-top: 5%;">Doctors List</h4>
+                      <h4 class="StepTitle" style="margin-top: 5%;">Doctor List</h4>
                       <script>
                         function clickDiv(id) {
                           document.querySelector(id).click();
@@ -162,7 +162,7 @@ if(isset($_POST['docsub1']))
                       </script> 
                       <p class="links cl-effect-1">
                         <a href="#list-doc" onclick="clickDiv('#list-doc-list')">
-                          View Doctors List
+                          View Doctors
                         </a>
                       </p>
                     </div>
@@ -177,7 +177,7 @@ if(isset($_POST['docsub1']))
                       
                       <p class="cl-effect-1">
                         <a href="#app-hist" onclick="clickDiv('#list-pat-list')">
-                          View Patients List
+                          View Patients
                         </a>
                       </p>
                     </div>
@@ -193,7 +193,7 @@ if(isset($_POST['docsub1']))
                     
                       <p class="cl-effect-1">
                         <a href="#app-hist" onclick="clickDiv('#list-app-list')">
-                          View Appointments List
+                          View Appointments
                         </a>
                       </p>
                     </div>
@@ -210,7 +210,7 @@ if(isset($_POST['docsub1']))
                     
                       <p class="cl-effect-1">
                         <a href="#list-pres" onclick="clickDiv('#list-pres-list')">
-                          View Prescriptions List
+                          View Prescriptions
                         </a>
                       </p>
                     </div>
@@ -228,7 +228,7 @@ if(isset($_POST['docsub1']))
                         <a href="#app-hist" onclick="clickDiv('#list-adoc-list')">Add Doctors</a>
                         &nbsp|
                         <a href="#app-hist" onclick="clickDiv('#list-ddoc-list')">
-                          Delete Doctors from the List
+                          Delete Doctors
                         </a>
                       </p>
                     </div>

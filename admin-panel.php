@@ -53,7 +53,7 @@ if(isset($_POST['app-submit']))
           }
       }
       else{
-        echo "<script>alert('We are sorry to inform that the doctor is not available in this time or date. Please choose different time or date!');</script>";
+        echo "<script>alert('We are sorry to inform that the doctor is not available in this time or date. Please choose different slot!');</script>";
       }
     }
     else{
@@ -71,7 +71,7 @@ if(isset($_GET['cancel']))
     $query=mysqli_query($con,"update appointmenttb set userStatus='0' where ID = '".$_GET['ID']."'");
     if($query)
     {
-      echo "<script>alert('Your appointment successfully cancelled');</script>";
+      echo "<script>alert('Your appointment is successfully cancelled');</script>";
     }
   }
 
@@ -533,7 +533,7 @@ function get_specs(){
                     <th scope="col">Appointment ID</th>
                     <th scope="col">Appointment Date</th>
                     <th scope="col">Appointment Time</th>
-                    <th scope="col">Diseases</th>
+                    <th scope="col">Disease</th>
                     <th scope="col">Allergies</th>
                     <th scope="col">Prescriptions</th>
                     <th scope="col">Bill Payment</th>
