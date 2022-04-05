@@ -26,7 +26,7 @@ body {
     cursor: pointer;
 }
 .register-right{
-    background: #b816aa;
+    background: #f8f9fa;
     border-top-left-radius: 10% 50%;
     border-bottom-left-radius: 10% 50%;
 }
