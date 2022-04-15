@@ -1,5 +1,5 @@
 body {
-    background: -webkit-linear-gradient(left, #dc3545, #b816aa);
+    background: -webkit-linear-gradient(left, #cc9dc8, #b816aa);
     background-size: cover;
 }
 
@@ -60,7 +60,7 @@ body {
     border: none;
     border-radius: 1.5rem;
     padding: 2%;
-    background: #0062cc;
+    background: #cc9dc8;
     color: #fff;
     font-weight: 600;
     width: 50%;
@@ -69,7 +69,7 @@ body {
 .register .nav-tabs{
     margin-top: 3%;
     border: none;
-    background: #0062cc;
+    background: #cc9dc8;
     border-radius: 1.5rem;
     width: 28%;
     float: right;
